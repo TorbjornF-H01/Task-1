@@ -11,8 +11,10 @@
 </head>
 
 <body>
-    <h1>My Top 5 TV series of all time</h1>
     <div class="container">
+        <div class="text-container">
+            <h1>My Top 5 TV series of all time</h1>
+        </div>
         <ul class="list">
             <li>
                 <a href="https://www.imdb.com/title/tt7660850/" target="_blank">
@@ -35,12 +37,38 @@
                     <img src="Image/Chernobyl.jpg" alt="Chernobyl poster"></a>
             </li>
         </ul>
+    </div>
+    <div class="rcontainer">
+        <div class="text-cont">
+            <h2>Enter your raiting:</h2>
+        </div>
+        <form action="#" method="post">
+            <label for="series1Title">TV Series Title:</label>
+            <select id="series1Title" name="series1Title" required>
+                <option value="Succession">Succession</option>
+                <option value="The Wire">The Wire</option>
+                <option value="Band of Brothers">Band of Brothers</option>
+                <option value="Chernobyl">Chernobyl</option>
+                <option value="Game of Thrones">Game of Thrones</option>
+            </select>
 
+            <label for="series1Rating">Rating:</label>
+            <select id="series1Rating" name="series1Rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
 
+            <button type="submit">Submit🍿</button>
+        </form>
+    </div>
+
+    <footer>
+        <!-- link te linkedn, github/ -->
+        <p>Footer</p>
+    </footer>
 </body>
-<footer>
-    <!-- link te linkedn, github/ -->
-    <p>Footer</p>
-</footer>
 
 </html>

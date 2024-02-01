@@ -1,26 +1,36 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     color: white;
     /* Set text color to white */
 }
 
 h1 {
-    text-align: center;
+    /* text-align: center;
     font-family: monospace;
-    color: darkviolet;
+    color: darkviolet; */
     border-style: ridge;
-    border-width: 30px;
+    border-width: 10px;
     border-radius: 15px;
     border-color: black;
+    margin: 0;
+    display: inline-block;
 }
 
 .container {
     display: block;
+    padding: 0;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     background: linear-gradient(to bottom, black, purple);
+}
+
+.text-container {
+    text-align: center;
+    font-family: monospace;
+    color: darkviolet;
 }
 
 img {
@@ -47,11 +57,68 @@ img {
 }
 
 
-
-
 footer {
     text-align: center;
     padding: 5px;
     background-color: #abbaba;
     color: #000;
+}
+
+
+.rcontainer {
+    display: block;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(to bottom, purple, black);
+}
+
+.text-cont {
+    text-align: center;
+    font-family: monospace;
+    color: #230D08;
+
+}
+
+h2 {
+    /* text-align: center;
+    font-family: monospace;
+    color: #230D08; */
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color: black;
+    margin: 0;
+    display: inline-block;
+}
+
+button {
+    background-color: #250223;
+    /* Set the background color */
+    color: rgb(206, 16, 200);
+    /* Set the text color */
+    padding: 10px 20px;
+    /* Add padding to the button */
+    border-style: dotted;
+    border-color: blueviolet;
+    /* Remove the default button border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #b92997;
+    font-weight: bold;
+    /* Change the background color on hover */
+}
+
+form {
+    text-align: center;
+    text-decoration: double;
+    text-shadow: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
 }
