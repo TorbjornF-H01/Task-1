@@ -57,14 +57,6 @@ img {
     /* Adjust the opacity level when hovering bigbrain*/
 }
 
-
-footer {
-    text-align: center;
-    padding: 5px;
-    background-color: #abbaba;
-    color: #000;
-}
-
 /* more background shitz */
 .rcontainer {
     display: block;
@@ -126,9 +118,11 @@ form {
 }
 
 /* more work needed */
-.footer {
+footer {
     text-align: center;
-    font: monospace;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
 }
 
 .end {
